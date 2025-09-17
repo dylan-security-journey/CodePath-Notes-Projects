@@ -46,4 +46,5 @@ NIST Framework for improving cybersecurity (help assess and mitigate risk)
 
 <img width="1235" height="928" alt="image" src="https://github.com/user-attachments/assets/d395ed73-d216-4b17-8fb3-0b082849d8cc" />
 
+<img width="1555" height="1236" alt="image" src="https://github.com/user-attachments/assets/b78cb45b-ba89-40db-b5d7-9875dc934a76" />
 
