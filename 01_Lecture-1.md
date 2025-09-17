@@ -32,10 +32,18 @@ Honeypots: technical, detective, deploying accounts to attract, detect, and thwa
 
 NIST Framework for improving cybersecurity (help assess and mitigate risk)
 
+<img width="1737" height="892" alt="image" src="https://github.com/user-attachments/assets/accf442f-5972-40ea-82d0-d538260bccbc" />
 
+<img width="1525" height="803" alt="image" src="https://github.com/user-attachments/assets/6fbd3d21-c1c4-48da-b4bc-fcb653b073a7" />
 
+<img width="1530" height="923" alt="image" src="https://github.com/user-attachments/assets/66bc08fe-05e5-42a5-b6bb-ddd210197922" />
 
+<img width="1397" height="876" alt="image" src="https://github.com/user-attachments/assets/e241c1e8-cc11-4732-b53c-c6b160cef4fc" />
 
+<img width="2357" height="1213" alt="image" src="https://github.com/user-attachments/assets/9a4fa733-4b2c-4d6a-94f8-b55e93549119" />
 
+<img width="2167" height="1171" alt="image" src="https://github.com/user-attachments/assets/8aedf405-a0ba-4c95-bcd1-ba52d9f528e3" />
+
+<img width="1235" height="928" alt="image" src="https://github.com/user-attachments/assets/d395ed73-d216-4b17-8fb3-0b082849d8cc" />
 
 
