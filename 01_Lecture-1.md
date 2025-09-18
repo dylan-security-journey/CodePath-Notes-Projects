@@ -1,50 +1,135 @@
-CIA Triad- Confidentiality (authentication required to view data, Integrity (Checksums are used to detect high-level data errors, Availability (Backups and redundancy keep systems online
+# Cybersecurity Notes
 
-Processes: Supply chain connections
+## 🔐 CIA Triad
+- **Confidentiality** – Ensures that only authorized users can access data.  
+  - Methods: authentication, encryption, access controls.  
+- **Integrity** – Ensures data is accurate and unaltered.  
+  - Methods: checksums, hashing, digital signatures.  
+- **Availability** – Ensures systems and data are accessible when needed.  
+  - Methods: redundancy, backups, disaster recovery, uptime monitoring.  
 
-Systems: Data collection
+---
 
-Technology: IT systems, networks, communication
+## ⚙️ Key Concepts
 
-facility assets: Buildings, land, vehicles, machinery
+### Processes
+- Supply chain connections  
+- Business workflows that rely on secure IT systems  
 
-Vulnerability: A weakness or flaw in a system
+### Systems
+- Data collection mechanisms  
+- Information flow pipelines (databases, storage, analytics platforms)  
 
-Threat: When an attacker has the opportunity/capability to exploit a vulnerability
+### Technology
+- IT systems, networks, and communication infrastructure  
 
-Risk: probable frequency and magnitude of loss
+### Facility Assets
+- Physical resources such as buildings, land, vehicles, and machinery  
 
-Cross-site scripting (xss): discovered in 216, a user could create a DM deeplink and insert malicious malware
+---
 
-Social engineering: 2020 hack of joe biden, barack obama, able to phish employees to obtain admin access
+## ⚠️ Security Terms
 
-Spam: High probability, low loss risk
+- **Vulnerability** – A weakness or flaw in a system that can be exploited.  
+- **Threat** – When an attacker has the capability and opportunity to exploit a vulnerability.  
+- **Risk** – The probable frequency and magnitude of loss resulting from a threat exploiting a vulnerability.  
 
-Account takeover: lower probaility, higher loss risk
+---
 
-Threat Actors: any entity that is responsible for a cybersecurity incident
+## 🚨 Threat Examples
 
-Many types of threat actors: Nation-state actor (government-sponsored groups), hacktivist (promoting a political agenda or social change), Cybercriminal (entity perpetrating a crime for financial gain), Insiders
+- **Cross-Site Scripting (XSS)** – Discovered in 2016; attackers used malicious DM deeplinks to insert malware.  
+- **Social Engineering (Twitter Hack, 2020)** – Attackers phished employees, gained admin access, and compromised accounts like Joe Biden and Barack Obama.  
+- **Spam** – High probability, low loss risk.  
+- **Account Takeover** – Lower probability but higher loss risk.  
 
-Controls: Any policy/procedures or actions designed to mitigate risk (Preventive, Detective, Corrective, Physical, Technical, Administrative)
+---
 
-Honeypots: technical, detective, deploying accounts to attract, detect, and thwart spammers
+## 🧑‍💻 Threat Actors
 
-NIST Framework for improving cybersecurity (help assess and mitigate risk)
+- **Nation-State Actor** – Government-sponsored hacking groups.  
+- **Hacktivist** – Promote political or social change through cyberattacks.  
+- **Cybercriminal** – Commit crimes for financial gain (fraud, ransomware, theft).  
+- **Insiders** – Employees or individuals within an organization who abuse access.  
 
-<img width="1737" height="892" alt="image" src="https://github.com/user-attachments/assets/accf442f-5972-40ea-82d0-d538260bccbc" />
+---
 
-<img width="1525" height="803" alt="image" src="https://github.com/user-attachments/assets/6fbd3d21-c1c4-48da-b4bc-fcb653b073a7" />
+## 🛡️ Controls
 
-<img width="1530" height="923" alt="image" src="https://github.com/user-attachments/assets/66bc08fe-05e5-42a5-b6bb-ddd210197922" />
+Controls are policies, procedures, or actions designed to **mitigate risk**.  
 
-<img width="1397" height="876" alt="image" src="https://github.com/user-attachments/assets/e241c1e8-cc11-4732-b53c-c6b160cef4fc" />
+- **Preventive Controls** – Stop an incident before it occurs.  
+  - Examples: firewalls, multi-factor authentication, encryption.  
 
-<img width="2357" height="1213" alt="image" src="https://github.com/user-attachments/assets/9a4fa733-4b2c-4d6a-94f8-b55e93549119" />
+- **Detective Controls** – Identify incidents as they occur.  
+  - Examples: intrusion detection systems, honeypots, log monitoring.  
 
-<img width="2167" height="1171" alt="image" src="https://github.com/user-attachments/assets/8aedf405-a0ba-4c95-bcd1-ba52d9f528e3" />
+- **Corrective Controls** – Restore systems after an incident.  
+  - Examples: patch management, backups, incident response plans.  
 
-<img width="1235" height="928" alt="image" src="https://github.com/user-attachments/assets/d395ed73-d216-4b17-8fb3-0b082849d8cc" />
+- **Physical Controls** – Restrict access to physical environments.  
+  - Examples: locks, guards, cameras, keycards.  
 
-<img width="1555" height="1236" alt="image" src="https://github.com/user-attachments/assets/b78cb45b-ba89-40db-b5d7-9875dc934a76" />
+- **Technical Controls** – Use technology to enforce security.  
+  - Examples: antivirus software, intrusion prevention systems, honeypots.  
+
+- **Administrative Controls** – Policies, training, and procedures that guide user behavior.  
+  - Examples: security awareness training, access review policies, incident response guidelines.  
+
+**Example:**  
+Honeypots (technical, detective) are deployed to **attract attackers**, allowing monitoring and detection of malicious activity.  
+
+---
+
+## 📑 NIST Cybersecurity Framework (CSF)
+
+The NIST CSF provides a structured way to **assess and mitigate risk**.  
+It includes five core functions:  
+
+1. **Identify** – Understand organizational systems, assets, and risks.  
+2. **Protect** – Develop safeguards to secure assets and reduce risk.  
+3. **Detect** – Identify security events and anomalies quickly.  
+4. **Respond** – Contain and mitigate the impact of an incident.  
+5. **Recover** – Restore systems, services, and operations after an incident.  
+
+---
+
+# ✅ Summary
+
+- The **CIA Triad** is the foundation of cybersecurity.  
+- Security requires addressing **processes, systems, technology, and facilities**.  
+- Risks arise when **threats exploit vulnerabilities**, causing potential loss.  
+- **Threat actors** can be external (nation-states, hacktivists, criminals) or internal (insiders).  
+- **Controls** mitigate risks through preventive, detective, corrective, physical, technical, and administrative methods.  
+- The **NIST Cybersecurity Framework** provides a cycle to manage risks effectively.  
+
+# Cybersecurity CTFs
+
+### 1. CIA Triad & Security Principles
+<img src="https://github.com/user-attachments/assets/accf442f-5972-40ea-82d0-d538260bccbc" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/6fbd3d21-c1c4-48da-b4bc-fcb653b073a7" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/66bc08fe-05e5-42a5-b6bb-ddd210197922" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/e241c1e8-cc11-4732-b53c-c6b160cef4fc" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/9a4fa733-4b2c-4d6a-94f8-b55e93549119" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/8aedf405-a0ba-4c95-bcd1-ba52d9f528e3" width="600">
+
+---
+
+<img src="https://github.com/user-attachments/assets/d395ed73-d216-4b17-8fb3-0b082849d8cc" width="600">
+
 
