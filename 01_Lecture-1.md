@@ -167,6 +167,40 @@ CyberChef is a powerful tool for **encryption, encoding, decoding, and data mani
 ✅ Lesson: Magic Numbers (file signatures) are critical for file recognition. For PNG files, the header should start with:  
 89 50 4E 47 0D 0A 1A 0A
 
+
+---
+
+## 👥 Exercise 5: Hidden Message in an Image
+- Image files may contain **hidden text or data** (steganography).  
+- In CyberChef, try operations like:  
+  - `Extract LSB` (Least Significant Bit steganography).  
+  - `Render Image` followed by `Extract Text`.  
+- Hidden message will be revealed in the output panel.  
+
+✅ Lesson: Steganography hides information within files. CyberChef can extract such data with the right recipes.  
+
+---
+
+## 👥 Exercise 6: Hashes and CrackStation
+- **Message:** `Qfw ech'uv rkoqb wox huh gruxrfk!`  
+- **Key (hash):** `8621ffdbc5698829397d97767ac13db3`  
+- Steps:  
+  1. Recognize that the given key is a **hash** (likely MD5, based on length: 32 hex characters).  
+  2. Use **CrackStation** (an online hash lookup tool) to crack the hash into the plaintext key.  
+  3. Use this cracked key in CyberChef to decrypt the message.  
+
+✅ Lesson: Hashes are one-way functions, but weak/common hashes like MD5 can often be cracked using lookup tables or rainbow tables.  
+
+---
+
+# 🎯 Key Takeaways
+- **ROT13** is just one case of Caesar shift (Exercise 1 & 3).  
+- **Vigenère** requires a key, which may be encoded (Exercise 2).  
+- **Magic Numbers** identify file formats (Exercise 4).  
+- **Steganography** hides data in files (Exercise 5).  
+- **Hashes** can sometimes be cracked with external tools like CrackStation (Exercise 6).  
+- **CyberChef** provides a drag-and-drop approach to chaining operations together into recipes.  
+
 # Cybersecurity CTFs
 
 ### 1. CIA Triad & Security Principles
