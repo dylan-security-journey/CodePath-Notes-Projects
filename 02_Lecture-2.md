@@ -102,3 +102,8 @@
 - ❌ Don’t replace decision-making  
 
 ---
+
+<img width="697" height="192" alt="image" src="https://github.com/user-attachments/assets/6bbc6ac9-45ed-446e-a0ff-295b2769f763" />
+
+<img width="1070" height="1280" alt="image" src="https://github.com/user-attachments/assets/72c224d6-0f28-4355-9731-7de2f757fbd8" />
+
